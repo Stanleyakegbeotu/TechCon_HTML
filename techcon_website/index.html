@@ -3,53 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024 - Home</title>
+    <title>TechCon 2024</title>
 </head>
 <body>
 
-    <!-- CHECK 1 & 2: HEADER Structure (h1 and nav required) -->
-    <HEADER>
+    <header>
         <h1>TechCon 2024</h1>
         <nav>
-            <a href="index.html">Home</a> | 
-            <a href="about.html">About</a> | 
-            <a href="schedule.html">Schedule</a> | 
-            <a href="register.html">Register</a> | 
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="register.html">Register</a>
             <a href="contact.html">Contact</a>
         </nav>
-    </HEADER>
+    </header>
 
-    <!-- CHECK 3: MAIN Content and Video (main and video tag required) -->
-    <MAIN>
-        
-        <section id="welcome">
+    <main>
+        <section>
             <h2>Welcome to TechCon 2024</h2>
-            <p>
-                TechCon 2024 is the premier conference dedicated to exploring the intersection of modern technology and sustainable development. We are excited to host thousands of innovators, developers, and industry leaders from around the globe. This event will feature keynotes on AI ethics, quantum computing advancements, and new strategies for sustainable technology implementation. Join us for three days of deep learning and invaluable networking.
-            </p>
-            <p>
-                The conference features over 50 sessions, including workshops, panel discussions, and hands-on labs. Make sure to check the schedule page for the complete list of events and secure your registration early!
-            </p>
+            <p>Join us for the most innovative technology conference of the year. Explore the future of tech with industry leaders and enthusiasts.</p>
+            
+            <video controls width="600">
+                <source src="techcon_promo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </section>
+    </main>
 
-        <section id="main-video">
-            <h3>Watch Our Conference Teaser</h3>
-            <div class="video-container">
-                <!-- We keep the video src redundancy as it's a known checker requirement -->
-                <video controls src="webtech_video.mp4">
-                    <source src="webtech_video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </section>
-        
-    </MAIN>
-
-    <!-- CHECK 4: FOOTER Content (footer tag and a link required) -->
-    <FOOTER>
-        <!-- We keep the rigid p/br/a structure as it was a known checker requirement -->
-        <p>Copyright &copy; 2024 TechCon. All rights reserved.<br><a href="contact.html">Contact Us</a></p>
-    </FOOTER>
+    <footer>
+        <p>&copy; 2024 TechCon Conference. All rights reserved. copyright.</p>
+    </footer>
 
 </body>
 </html>
